@@ -2,20 +2,18 @@
   "name": "hubot-discord",
   "version": "2.1.0",
   "description": "Hubot adapter for discord",
-  "main": "src/discord.coffee",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "discord.js": "^11.2.1",
-    "request": "^2.79.0",
-    "parent-require": "^1.0.0"
+    "hubot": "^3.3.2",
+    "parent-require": "^1.0.0",
+    "request": "^2.79.0"
   },
   "peerDependencies": {
     "hubot": ">=2.0"
-  },
-  "devDependencies": {
-    "coffee-script": ">=1.2.0"
   },
   "repository": {
     "type": "git",
